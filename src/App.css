@@ -10,6 +10,9 @@
 
 body{
   background: linear-gradient(to right, #363636, #646464ad, rgba(129, 129, 129, 0.548));
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
 }
 
 .App {

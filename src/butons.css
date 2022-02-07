@@ -1,13 +1,13 @@
 *{
     box-sizing: border-box;
   }
-  
+/*   
   body{
     min-height: 100vh;
     display: grid;
     place-content: center;
   }
-  
+   */
   section {
     display: grid;
     grid-template-columns: repeat(4, 50px);
