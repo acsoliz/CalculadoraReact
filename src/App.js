@@ -60,7 +60,7 @@ function App() {
 			<h1 className="title">My Calculator</h1>
 			<div className="calculator-grid">
 				<div className="output">
-					<div className="previous-operand">PO
+					<div className="previous-operand">
 						{
 							currentOperation ? number1 + currentOperation :
 							''}
@@ -69,7 +69,7 @@ function App() {
 						{
 							result ? result :
 							!currentOperation ? number1 :
-							number2}CO
+							number2}
 					</div>
 				</div>
 				<button onClick={allClear} className="span-two">
