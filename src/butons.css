@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+  }
+  
+  section {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+  }
+  
+  button {
+    border: 1px solid #fff;
+    cursor: pointer;
+    width: 50 px;
+    height: 50 px;
+  }
+  button:hover{
+    filter: brightness(90%);
+  }
+  
+  .igual {
+    width: 200%;
+  }
+  .op{
+    background : rgb(140, 209, 255);
+  }
+  .opSec{
+    background: rgb(42, 214, 81)
+  }
+  .num{
+  background: rgb(214, 209, 42) 
+  }
+  
